@@ -15,13 +15,13 @@ BuildRequires:  python-mock
 BuildRequires:  python-PyYAML
 Requires:       python-argparse
 Requires:       python-PyYAML
-	
+
 %description
 Library for retrieving information about ROS packages and stacks.
 
 %prep
 %setup -q
-cp %{SOURCE1001} .	
+cp %{SOURCE1001} .
 
 %build
 %{__python} setup.py build
