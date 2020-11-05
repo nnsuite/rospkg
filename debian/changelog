@@ -1,0 +1,5 @@
+python-rospkg (1.1.10-100) trusty utopic vivid wily xenial yakkety zesty artful bionic jessie stretch buster; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Ken Conley <kwc@willowgarage.com>  Fri, 09 Aug 2019 07:37:39 -0700
