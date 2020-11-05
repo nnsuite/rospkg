@@ -10,8 +10,8 @@ Homepage: http://wiki.ros.org/rospkg
 Package: python-rospkg-modules
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-catkin-pkg-modules, python-yaml, lsb-release
-Conflicts: python-rospkg (<< 1.1.0)
-Replaces: python-rospkg (<< 1.1.0)
+Conflicts: python-rospkg (<< 1.1.5)
+Replaces: python-rospkg (<< 1.1.5)
 Description: ROS package library
          Library for retrieving information about ROS packages and stacks.
  .
