@@ -1,0 +1,18 @@
+Source: python-rospkg-modules
+Maintainer: Ken Conley <kwc@willowgarage.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9), python-yaml, python-mock
+Standards-Version: 3.9.6
+X-Python3-Version: >= 3.4
+Homepage: http://wiki.ros.org/rospkg
+
+Package: python-rospkg-modules
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-catkin-pkg-modules, python-yaml, lsb-release
+Conflicts: python-rospkg (<< 1.1.0)
+Replaces: python-rospkg (<< 1.1.0)
+Description: ROS package library
+         Library for retrieving information about ROS packages and stacks.
+ .
+
