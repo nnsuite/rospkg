@@ -9,7 +9,7 @@ Homepage: http://wiki.ros.org/rospkg
 
 Package: python-rospkg
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-argparse, python-rospkg-modules (>= 1.1.10)
+Depends: ${misc:Depends}, ${python:Depends}, python-argparse, python-rospkg-modules (>> 1.1.9)
 Conflicts: python3-rospkg
 Description: ROS package library
          Library for retrieving information about ROS packages and stacks.
